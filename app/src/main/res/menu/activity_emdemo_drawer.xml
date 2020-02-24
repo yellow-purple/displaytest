@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Service">
+        <menu>
+            <item
+                android:id="@+id/nav_RunningService"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_Running" />
+        </menu>
+    </item>
+
+    <item android:title="Log Dump">
+        <menu>
+            <item
+                android:id="@+id/take_Log"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_take" />
+            <item
+                android:id="@+id/save_Log"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_save" />
+        </menu>
+    </item>
+    <item android:title="LogTrace">
+        <menu>
+            <item
+                android:id="@+id/QXDM"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_qxdm" />
+            <item
+                android:id="@+id/TCP"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_tcp" />
+            <item
+                android:id="@+id/WLAN"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_wlan" />
+
+        </menu>
+    </item>
+
+
+
+
+</menu>
